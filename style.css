@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     width: auto;
+    background-color: rgb(255, 255, 255);
 }
 *{
     padding: 0;
@@ -20,7 +21,7 @@ a{
 }
 header{
     position: fixed; top: 0;
-    background: rgb(156, 158, 149);
+    background: rgb(150, 202, 248);
     width: 100%;
 
 }
@@ -41,7 +42,8 @@ justify-content: space-between;
 
 }
 .header-container a:hover{
-    background: yellow;
+    background: rgb(108, 169, 223);
+
    
 }
 #menu-checkbox{
@@ -124,9 +126,10 @@ h8{
 
 .span{
     display: inline-flex;
-    background: #ccc;
+    background:rgb(129, 187, 238);
     color: #ffffff;
     text-align: center;
+    font-size: 30px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
