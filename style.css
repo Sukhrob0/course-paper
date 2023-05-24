@@ -82,17 +82,15 @@ button{
     gap: 10px;
 }
 .fdiv {
-    /* display: grid ;
-    margin: 20px 39px;
-    margin-bottom: 12.58em;
-    border: 58px  100px; */
-
     display: flex;
-	flex-direction: row;
-	width: 1000px;
-    padding: 160px;
+    padding-inline: 350px;
+    padding-top: 500px;
     justify-content: center;
     align-items: center;
+    /* margin-bottom: 200px;
+    width: 1000px;
+    height: 300px; */
+    
 }
 .block_text {
 	text-align: left
@@ -110,29 +108,24 @@ h8{
 
 
 .cricle1{
-
-    display: flex;
-    padding: 50px 0 50px ;
-    justify-content: center;
-    align-items: center;
-    line-height: 150px;
     
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px  
+
 }
 .cricle2{
+    
     display: flex;
-    padding: 50px 0 50px ;
     justify-content: center;
-    align-items: center;
-    line-height: 100px;
-    text-align: center;
+    padding: 50px 0 50px ;
    
-
 }
 
 .span{
     display: inline-flex;
     background: #ccc;
-    color: #000;
+    color: #ffffff;
     text-align: center;
     width: 100px;
     height: 100px;
@@ -145,4 +138,19 @@ h8{
   .span:hover{
     background: #272525;
   }
+.numbers{
+    display: flex;
+    justify-content: center;
 
+
+}
+.num{
+    padding-top:100px ;
+    padding-inline: 100px;
+    font-size: 60px;
+    color: #5D6AFB;
+    font-weight: 700;
+}
+.snum{
+   text-align: center;
+}
