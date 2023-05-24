@@ -19,11 +19,10 @@ a{
     text-decoration: none;
 }
 header{
-    position: fixed;
+    position: fixed; top: 0;
     background: rgb(156, 158, 149);
-    padding: 9px 0px 0px 20px;
-    margin-top: 0.61cm;
     width: 100%;
+
 }
 
 
@@ -92,6 +91,8 @@ button{
 	flex-direction: row;
 	width: 1000px;
     padding: 160px;
+    justify-content: center;
+    align-items: center;
 }
 .block_text {
 	text-align: left
@@ -110,12 +111,28 @@ h8{
     padding: 10px;
 }
 .cricle {
-   
+       display: inline-flex;
         width: 100px; 
         height: 100px;
+        margin: 80px 80px;
         background: #83A7C9;
         border-radius: 50%;
-        text-align: center;
+        text-align: justify;
+        border: 10px 10px;
         
         
+        
+}
+.cricle1{
+    display: flex;
+    padding: 50px 0 50px ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cricle2{
+    display: flex;
+    padding: 50px 0 50px ;
+    justify-content: center;
+    align-items: center;
 }
