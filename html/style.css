@@ -1,10 +1,16 @@
+
 body{
     font-family: 'Poppins', sans-serif;
     width: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);   
+    
+   
+     
+    
 }
 *{
     padding: 0;
+    box-sizing: border-box;
     margin: 0;
 }
 li{
@@ -49,7 +55,7 @@ justify-content: space-between;
 #menu-checkbox{
     display: none;
 }
-ul{
+.main-menu{
     display: flex;
     padding: 500px 89 0 89px;
     margin: 30px 30px ;
@@ -89,10 +95,7 @@ button{
     padding-top: 500px;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 200px;
-    width: 1000px;
-    height: 300px; */
-    
+
 }
 .block_text {
 	text-align: left
@@ -156,4 +159,64 @@ h8{
 }
 .snum{
    text-align: center;
+}
+
+
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.father_Card{
+    display: flex;
+}
+.card {   
+    
+   margin: 150px 100px;
+}
+.text_card {
+    
+}
+
+.footer {
+	background-color: #343434;
+  
+}
+
+.footer h4 {
+	color: #ccc;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom: 1px solid #666;
+	padding-bottom: 3px;
+}
+
+.footer a {
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer a, .footer li {
+	color: #c8c8c8;
+}
+
+.footer li a {
+	display: block;
+}
+
+.footer-icons a {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
 }
