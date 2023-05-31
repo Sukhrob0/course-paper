@@ -26,7 +26,7 @@ a{
     text-decoration: none;
 } */
 header{
-    position: fixed; top: 0;
+ 
     background: rgb(162, 248, 150);
     width: 100%;
 
@@ -90,7 +90,7 @@ button{
     gap: 10px;
 }
 .carusel{
-
+ 
     
   
 }
