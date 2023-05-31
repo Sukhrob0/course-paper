@@ -27,7 +27,7 @@ a{
 } */
 header{
     position: fixed; top: 0;
-    background: rgb(150, 202, 248);
+    background: rgb(162, 248, 150);
     width: 100%;
 
 }
@@ -88,6 +88,11 @@ button{
     align-items: flex-start;
     padding: 0px 30px 12px 30px;
     gap: 10px;
+}
+.carusel{
+
+    
+  
 }
 .fdiv {
     display: flex;
