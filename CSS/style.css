@@ -89,11 +89,11 @@ button{
     padding: 0px 30px 12px 30px;
     gap: 10px;
 }
-.carusel{
+
  
     
   
-}
+
 .fdiv {
     display: flex;
     padding-inline: 350px;
@@ -249,9 +249,6 @@ ul{
 .card {   
     
    margin: 150px 100px;
-}
-.text_card {
-    
 }
 
 .footer {
