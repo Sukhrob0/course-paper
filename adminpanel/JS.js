@@ -5,4 +5,4 @@ form.onsubmit = function ()
   text.value = '<p>' + text.value + '</p>';
   text.value = text.value.replace(/\n/g, '</p><p>');
   };
-  ХУЙ
+  ХУЙ, СУХРОБ НЕ ПСИХУЙ
