@@ -10,3 +10,4 @@ if ($login == 'Vadim' && $pas == 1231321)
 $script = 'avtadministrator.html';
 header("Location: $script");}
 ?>
+ДВАПЬЩАЗП
