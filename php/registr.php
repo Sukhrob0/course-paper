@@ -9,7 +9,7 @@ $email = $_POST['email'];
 if (empty($login) || empty($pass) || empty($repeatpass) || empty($email)){
     echo "Заполните все поля! ";
 } else
-{
+
     if($pass != $repeatpass){
         echo "Пароли не совпадают! ";
     } else {
@@ -21,4 +21,4 @@ if (empty($login) || empty($pass) || empty($repeatpass) || empty($email)){
             echo "Ошибка: ". $conn->error;
         }
     }
-}
+?>

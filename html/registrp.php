@@ -31,7 +31,7 @@ background-color: rgb(162, 248, 150);
                 <ul class="navbar-nav me-auto ms-2-auto " >
                   <li class="nav-item">
       
-                    <a class="nav-link active" aria-current="page" href="C:\Users\admin\Desktop\Курсавая работа САЙТ\html\index.html">Zoole</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Zoole</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -141,13 +141,16 @@ background-color: rgb(162, 248, 150);
                         </div>
       
                         <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="button" class="btn btn-primary btn-lg">Регистрация</button>
+                        <form action="registr.php" method="post">
+                          <button type="button" href="registr.php" class="btn btn-primary btn-lg">Регистрация</button>
                         </div>
 
-
-                    
                       </form>
-      
+                      </form>
+                      
+                     
+
+
                     </div>
                     <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
       

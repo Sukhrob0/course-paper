@@ -111,13 +111,6 @@ background-color: rgb(162, 248, 150);
                           </div>
                         </div>
       
-                        <div class="d-flex flex-row align-items-center mb-4">
-                          <i class="fas fa-key fa-lg me-3 fa-fw"></i>
-                          <div class="form-outline flex-fill mb-0">
-                            <input type="password" id="form3Example4cd" class="form-control" style="border-color: #4a4d4b"/>
-                            <label class="form-label" for="form3Example4cd">Повторите пароль</label>
-                          </div>
-                        </div>
       
                         <div class="form-check d-flex justify-content-center mb-5">
                           <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" style="border-color: #4a4d4b"/>
@@ -181,6 +174,7 @@ background-color: rgb(162, 248, 150);
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
     integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
     crossorigin="anonymous"></script>
+    <script crs=''
 <script src="script.js"></script>
 </body>
 </html>
