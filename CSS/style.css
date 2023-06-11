@@ -13,18 +13,7 @@ body{
     box-sizing: border-box;
     margin: 0;
 }
-/* li{
-    padding: 500px 89 0 89px;
-    list-style: none;
-    display: inline;
-    font-size: 30px;
-    line-height: 30px;
-   
-}
-a{
-   
-    text-decoration: none;
-} */
+
 header{
  
     background: rgb(162, 248, 150);
@@ -32,43 +21,12 @@ header{
 
 }
 
-/* 
-.header-container{
-width: 1400px;
-height: 90px;
-margin:0 auto;
-display:flex;
-justify-content: space-between;
-}
-.header-container a{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    margin-right: 63px;
-    padding: 30px 10px;
-
-}
-.header-container a:hover{
-    background: rgb(108, 169, 223);
-
-   
-} */
-#menu-checkbox{
-    display: none;
-}
-.main-menu{
-    display: flex;
-    padding: 500px 89 0 89px;
-    margin: 30px 30px ;
-}  
 .logo{
     font-size: 32px;
     padding: 0px 0px;
     
 }
-button{
-    padding: 6px 0px  2px 2px;
-    display: inline;
-}
+
 
 .block1 {
 
@@ -78,58 +36,33 @@ button{
     margin: 160px 0 0 0;
 
 }
-.input0{
-    border-radius: 90px;
-    border: 4px solid #272525;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px 30px 12px 30px;
-    gap: 10px;
-}
 
- 
-    
+ .wc{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    border: #ee6e73;
+
+ }
+
+   
+
+ .bloki{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
   
-
-.fdiv {
+   
+ }
+ .gor{
     display: flex;
-    padding-inline: 350px;
-    padding-top: 500px;
     justify-content: center;
-    align-items: center;
-
-}
-.block_text {
-	text-align: left
-
-}
+    padding: 50px  
+ }
 
 .block_img :nth-child(h1) {
    padding: 100px;
 
-}
-h8{
-    background-color: rgb(129, 187, 238);
-    padding: 10px;
-}
-
-
-.cricle1{
-    
-    display: flex;
-    justify-content: center;
-    padding: 50px 0 50px  
-
-}
-.cricle2{
-    
-    display: flex;
-    justify-content: center;
-    padding: 50px 0 50px ;
-   
 }
 
 .span{
@@ -149,22 +82,7 @@ h8{
   .span:hover{
     background: #272525;
   }
-.numbers{
-    display: flex;
-    justify-content: center;
 
-
-}
-.num{
-    padding-top:100px ;
-    padding-inline: 100px;
-    font-size: 60px;
-    color: #5D6AFB;
-    font-weight: 700;
-}
-.snum{
-   text-align: center;
-}
 /* cord */
 .product-card {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
@@ -231,6 +149,14 @@ h8{
 	font-size: 20px;
 	margin-left: 10px;
 }
+/* inline */
+.info{
+    color: #D9470D;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 150%;
+    text-shadow: #000000 0px 1px 1px;
+}
 /* footer */
 .container0{
   max-width: 1170px;
@@ -240,9 +166,7 @@ h8{
   display: flex;
   flex-wrap: wrap;
 }
-ul{
-  list-style: none;
-}
+
 .father_Card{
     display: flex;
 }
