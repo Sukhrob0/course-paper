@@ -149,13 +149,13 @@ background-color: rgb(162, 248, 150);
 
 
 
-        <button type="sumbit">Зарегистрироваться</button>
+        
     </form>
 
 
     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         <form action="registr.php" method="post">
-                          <button type="button" href="registr.php" class="btn btn-primary btn-lg">Регистрация</button>
+                          <button type="sumbit" href="registr.php" class="btn btn-primary btn-lg">Регистрация</button>
                         </div>
 
 
