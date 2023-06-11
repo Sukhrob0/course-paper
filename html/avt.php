@@ -99,15 +99,7 @@ background-color: rgb(162, 248, 150);
                           <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
                             <input type="text" id="form3Example1c" class="form-control" style="border-color: #4a4d4b" />
-                            <label class="form-label" for="form3Example1c" >Ваш логин</label>
-                          </div>
-                        </div>
-      
-                        <div class="d-flex flex-row align-items-center mb-4">
-                          <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
-                          <div class="form-outline flex-fill mb-0">
-                            <input type="email" id="form3Example3c" class="form-control" style="border-color: #4a4d4b" />
-                            <label class="form-label" for="form3Example3c">Ваш Email</label>
+                            <label class="form-label" for="form3Example1c" >Ваше логин</label>
                           </div>
                         </div>
       
@@ -127,12 +119,6 @@ background-color: rgb(162, 248, 150);
                           </div>
                         </div>
       
-
-                        <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                        <a href="avt.php"><button type="button" class="btn btn-primary btn-lg" >У меня есть аккаунт</button> </a>
-                        </div>
-
-
                         <div class="form-check d-flex justify-content-center mb-5">
                           <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" style="border-color: #4a4d4b"/>
                           <label class="form-check-label" for="form2Example3">
@@ -141,11 +127,9 @@ background-color: rgb(162, 248, 150);
                         </div>
       
                         <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="button" class="btn btn-primary btn-lg">Регистрация</button>
+                          <button type="button" class="btn btn-primary btn-lg">Register</button>
                         </div>
-
-
-                    
+      
                       </form>
       
                     </div>
