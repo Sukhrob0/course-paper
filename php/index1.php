@@ -17,10 +17,18 @@
   <style>
 header{
 background-color: rgb(162, 248, 150);
-}
- 
- </style>
- 
+}</style>
+
+
+<form action="registr.php" method="post">
+        <input type="text" placeholder="login" name="login">
+        <input type="text" placeholder="password" name="pass">
+        <input type="text" placeholder="repeat password" name="repeatpass">
+        <input type="text" placeholder="email" name="email">
+        <button type="sumbit">Зарегистрироваться</button>
+    </form>
+
+
  <header>
         <nav class="navbar navbar-expand-lg " >
             <div class="container" style="padding-left: 250px;"   >
@@ -102,7 +110,7 @@ background-color: rgb(162, 248, 150);
       <div class="d-flex flex-row align-items-center mb-4">
         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
         <div class="form-outline flex-fill mb-0">
-          <input type="text" id="form3Example1c" class="form-control" style="border-color: #4a4d4b" />
+          <input type="text" id="form3Example1c" placeholder="Логин" name="login" class="form-control" style="border-color: #4a4d4b" />
           <label class="form-label" for="form3Example1c" >Ваш логин</label>
         </div>
       </div>

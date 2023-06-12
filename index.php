@@ -31,7 +31,7 @@
           <ul class="navbar-nav me-auto ms-2-auto " >
             <li class="nav-item">
 
-              <a class="nav-link active" aria-current="page" href="C:\Users\admin\Desktop\Курсавая работа САЙТ\html\index.html">Zoole</a>
+              <a class="nav-link active" aria-current="page" href="C:\Users\admin\Desktop\Курсавая работа САЙТ\html\index1.php">Zoole</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -59,7 +59,7 @@
             </form>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 " ></ul>
             <li class="nav-item">
-              <a class="nav-link" href="php/index.php"><i class="fa-solid fa-user"></i></a>
+              <a class="nav-link" href="php/index1.php"><i class="fa-solid fa-user"></i></a>
             </li>
             <li class="nav-item ">
               <a class="nav-link " href="#"><i class="fa-solid fa-cart-shopping"></i></a>
