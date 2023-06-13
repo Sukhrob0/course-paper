@@ -31,7 +31,7 @@
           <ul class="navbar-nav me-auto ms-2-auto " >
             <li class="nav-item">
 
-              <a class="nav-link active" aria-current="page" href="C:\Users\admin\Desktop\Курсавая работа САЙТ\html\index.html">Zoole</a>
+              <a class="nav-link active" aria-current="page" href="C:\Users\admin\Desktop\Курсавая работа САЙТ\html\index1.php">Zoole</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
