@@ -1,32 +1,10 @@
-
-body{
-    font-family: 'Poppins', sans-serif;
-    width: auto;
-    background-color: rgb(253, 39, 39);   
-    
-   
-     
-    
-}
-*{
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
-}
-
-header{
- 
-    background: rgb(162, 248, 150);
-    width: 100%;
+.video{
+	display: block;
+	justify-content: center;
+	width: 1000px;
+	height: 1000px;
 
 }
-
-.logo{
-    font-size: 32px;
-    padding: 0px 0px;
-    
-}
-
 
 .block1 {
 
