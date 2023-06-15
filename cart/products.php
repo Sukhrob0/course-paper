@@ -54,7 +54,7 @@ if(isset($message)){
 
 <section class="products">
 
-   <h1 class="heading">latest products</h1>
+   <h1 class="heading">Последний продукт</h1>
 
    <div class="box-container">
 

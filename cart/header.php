@@ -5,8 +5,8 @@
       <a href="#" class="logo">foodies</a>
 
       <nav class="navbar">
-         <a href="admin.php">add products</a>
-         <a href="products.php">view products</a>
+         <a href="admin.php">Добавить продукты</a>
+         <a href="products.php">Просмотр продуктов</a>
       </nav>
 
       <?php
@@ -16,7 +16,7 @@
 
       ?>
 
-      <a href="cart.php" class="cart">cart <span><?php echo $row_count; ?></span> </a>
+      <a href="cart.php" class="cart">Корзина <span><?php echo $row_count; ?></span> </a>
 
       <div id="menu-btn" class="fas fa-bars"></div>
 
