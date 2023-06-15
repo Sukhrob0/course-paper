@@ -1,4 +1,6 @@
 <?php
+
+
 $login = $_POST['login'];
 $pas = $_POST['password'];
 if ($login == 'Vadim' && $pas == 1231321)
