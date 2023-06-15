@@ -88,7 +88,7 @@ if(isset($message)){
 <section>
 
 <form action="" method="post" class="add-product-form" enctype="multipart/form-data">
-   <h3>add a new product</h3>
+   <h3>Создать новый товар</h3>
    <input type="text" name="p_name" placeholder="enter the product name" class="box" required>
    <input type="number" name="p_price" min="0" placeholder="enter the product price" class="box" required>
    <input type="file" name="p_image" accept="image/png, image/jpg, image/jpeg" class="box" required>
@@ -102,10 +102,10 @@ if(isset($message)){
    <table>
 
       <thead>
-         <th>product image</th>
-         <th>product name</th>
-         <th>product price</th>
-         <th>action</th>
+         <th>Картинка продукта</th>
+         <th>Название продукта</th>
+         <th>Цена продукта</th>
+         <th>Функции</th>
       </thead>
 
       <tbody>
@@ -121,15 +121,15 @@ if(isset($message)){
             <td><?php echo $row['name']; ?></td>
             <td>$<?php echo $row['price']; ?>/-</td>
             <td>
-               <a href="admin.php?delete=<?php echo $row['id']; ?>" class="delete-btn" onclick="return confirm('are your sure you want to delete this?');"> <i class="fas fa-trash"></i> delete </a>
-               <a href="admin.php?edit=<?php echo $row['id']; ?>" class="option-btn"> <i class="fas fa-edit"></i> update </a>
+               <a href="admin.php?delete=<?php echo $row['id']; ?>" class="delete-btn" onclick="return confirm('are your sure you want to delete this?');"> <i class="fas fa-trash"></i> Удалить </a>
+               <a href="admin.php?edit=<?php echo $row['id']; ?>" class="option-btn"> <i class="fas fa-edit"></i> Обновить </a>
             </td>
          </tr>
 
          <?php
             };    
             }else{
-               echo "<div class='empty'>no product added</div>";
+               echo "<div class='empty'>продукт не добавлен</div>";
             };
          ?>
       </tbody>
