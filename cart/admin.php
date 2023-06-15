@@ -89,10 +89,10 @@ if(isset($message)){
 
 <form action="" method="post" class="add-product-form" enctype="multipart/form-data">
    <h3>Создать новый товар</h3>
-   <input type="text" name="p_name" placeholder="enter the product name" class="box" required>
-   <input type="number" name="p_price" min="0" placeholder="enter the product price" class="box" required>
+   <input type="text" name="p_name" placeholder="Имя продукта" class="box" required>
+   <input type="number" name="p_price" min="0" placeholder="Цена продукта" class="box" required>
    <input type="file" name="p_image" accept="image/png, image/jpg, image/jpeg" class="box" required>
-   <input type="submit" value="add the product" name="add_product" class="btn">
+   <input type="submit" value="добавить продукт" name="add_product" class="btn">
 </form>
 
 </section>
@@ -119,7 +119,7 @@ if(isset($message)){
          <tr>
             <td><img src="uploaded_img/<?php echo $row['image']; ?>" height="100" alt=""></td>
             <td><?php echo $row['name']; ?></td>
-            <td>$<?php echo $row['price']; ?>/-</td>
+            <td>₽<?php echo $row['price']; ?></td>
             <td>
                <a href="admin.php?delete=<?php echo $row['id']; ?>" class="delete-btn" onclick="return confirm('are your sure you want to delete this?');"> <i class="fas fa-trash"></i> Удалить </a>
                <a href="admin.php?edit=<?php echo $row['id']; ?>" class="option-btn"> <i class="fas fa-edit"></i> Обновить </a>
@@ -183,7 +183,7 @@ if(isset($message)){
 
 
 
-<!-- custom js file link  -->
+
 <script src="js/script.js"></script>
 
 </body>
