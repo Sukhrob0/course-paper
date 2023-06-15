@@ -150,7 +150,7 @@ background-color: rgb(162, 248, 150);
 
 
 
-        
+        <button type="sumbit">Зарегистрироваться</button>
     </form>
 
 

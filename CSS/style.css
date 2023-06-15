@@ -1,31 +1,4 @@
 
-body{
-    font-family: 'Poppins', sans-serif;
-    width: auto;
-    background-color: rgb(253, 39, 39);   
-    
-   
-     
-    
-}
-*{
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
-}
-
-header{
- 
-    background: rgb(162, 248, 150);
-    width: 100%;
-
-}
-
-.logo{
-    font-size: 32px;
-    padding: 0px 0px;
-    
-}
 
 
 .block1 {
