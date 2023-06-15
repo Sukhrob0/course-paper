@@ -20,13 +20,6 @@ background-color: rgb(162, 248, 150);
 }</style>
 
 
-<form action="registr.php" method="post">
-        <input type="text" placeholder="login" name="login">
-        <input type="text" placeholder="password" name="pass">
-        <input type="text" placeholder="repeat password" name="repeatpass">
-        <input type="text" placeholder="email" name="email">
-        <button type="sumbit">Зарегистрироваться</button>
-    </form>
 
 
  <header>

@@ -17,7 +17,7 @@ header('Location: adminavt.php');
 
 
 
-<form action="newart.php" method="post">
+<form action="cart.php" method="post">
 <p>Статья такая-то и такая, а еще другая</p>
 <input name="nameart">
 <p>Текст статьи:</p>

@@ -9,7 +9,7 @@
 
 
     <p>Авторизация для Admin пользователя:</p>
-<form action="adminavt.php" method="post">
+<form action="admin.php" method="post">
   <input name="login" placeholder="Логин">
   <input type="password" name="password" placeholder="Пароль">
   <input type="submit" value="Войти">

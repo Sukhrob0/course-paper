@@ -67,7 +67,7 @@ if(isset($_POST['order_btn'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style2.css">
+   <link rel="stylesheet" href="CSS/style2.css">
 
 </head>
 <body>
@@ -156,7 +156,7 @@ if(isset($_POST['order_btn'])){
 </div>
 
 <!-- custom js file link  -->
-<script src="js/script2.js"></script>
+<script src="js/script.js"></script>
    
 </body>
 </html>

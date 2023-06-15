@@ -7,6 +7,6 @@ if ($login == 'Vadim' && $pas == 1231321)
   $_SESSION['admin'] = true;
   $script = 'adminpanel.php';
   } else {
-$script = 'avtadministrator.html';
+$script = 'avtadministrator.php';
 header("Location: $script");}
 ?>
