@@ -14,11 +14,6 @@
 </head>
 <body>
    
-  <style>
-header{
-background-color: rgb(162, 248, 150);
-}</style>
-
 
 
 
@@ -67,7 +62,7 @@ background-color: rgb(162, 248, 150);
                   </li>
                   <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-success" type="submit">Поиск</button>
                   </form>
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 " ></ul>
                   <li class="nav-item">
@@ -134,7 +129,7 @@ background-color: rgb(162, 248, 150);
 
 
       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-      <a href="avt.php"><button type="button" class="btn btn-primary btn-lg" >У меня есть аккаунт</button> </a>
+      <a href="/html/avt.php"><button type="button" class="btn btn-primary btn-lg" >У меня есть аккаунт</button> </a>
       </div>
 
 
@@ -150,7 +145,7 @@ background-color: rgb(162, 248, 150);
 
 
 
-        <button type="sumbit">Зарегистрироваться</button>
+  
     </form>
 
 

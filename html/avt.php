@@ -91,7 +91,7 @@ background-color: rgb(162, 248, 150);
                   <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
       
-                      <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Регистрация</p>
+                      <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Авторизация</p>
       
                       <form class="mx-1 mx-md-4">
       
@@ -99,7 +99,7 @@ background-color: rgb(162, 248, 150);
                           <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
                             <input type="text" id="form3Example1c" class="form-control" style="border-color: #4a4d4b" />
-                            <label class="form-label" for="form3Example1c" >Ваше логин</label>
+                            <label class="form-label" for="form3Example1c" >Ваш логин</label>
                           </div>
                         </div>
       
@@ -120,7 +120,7 @@ background-color: rgb(162, 248, 150);
                         </div>
       
                         <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                          <button type="button" class="btn btn-primary btn-lg">Register</button>
+                          <button type="button" class="btn btn-primary btn-lg">Авторизироваться</button>
                         </div>
       
                       </form>
@@ -174,7 +174,6 @@ background-color: rgb(162, 248, 150);
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
     integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
     crossorigin="anonymous"></script>
-    <script crs=''
 <script src="script.js"></script>
 </body>
 </html>
