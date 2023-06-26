@@ -47,16 +47,6 @@
                       <li><a class="dropdown-item" href="#">Обувь</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      Дети
-                    </a>
-                    <ul class="dropdown-menu" >
-                      <li><a class="dropdown-item" href="#">Одежда</a></li>
-                      <li><a class="dropdown-item" href="#">Обувь</a></li>
-                    </ul>
-                  </li>
                   <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Поиск</button>
@@ -80,7 +70,7 @@
     <h1 class='text'>Регистрация</h1>
   <div class="wrapper">
     
-    <form action="#">
+    <form action="registr.php" method="post">
       <div class="input-box">
         
         <input type="text" placeholder="Введите логин" required>
@@ -99,10 +89,11 @@
         <h3>Я согласен со всеми условиями </h3>
       </div>
       <div class="input-box button">
-        <input type="Submit" value="Зарегестрироваться">
+
+      <input type="Submit" value="Зарегестрироваться">
       </div>
       <div class="input-box button">
-        <input type="Submit" value="У меня кесть аккаунт">
+        <input type="Submit" value="У меня кесть аккаунт" href="../php/registr.php">
       </div>
       
     </form>
