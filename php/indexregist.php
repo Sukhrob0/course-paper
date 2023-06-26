@@ -101,6 +101,9 @@
       <div class="input-box button">
         <input type="Submit" value="Зарегестрироваться">
       </div>
+      <div class="input-box button">
+        <input type="Submit" value="У меня кесть аккаунт">
+      </div>
       
     </form>
   </div>
