@@ -1,93 +1,16 @@
 *{
-    background-color: rgb(218, 243, 243);
+    background-color: rgb(236, 129, 7);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    display: inline-block;
 
+.card-slider{
+	display: flex;
 }
-
-.revers{
-    display: grid;
-    grid-template-columns: 500px minmax(150px, 1fr);
-
-}
-.gride-waper > div {
-    display: flex;
-    max-width: 1000px;
-    justify-items: center;
-    align-items: center;
-
-}
-.gride-waper > div >img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  
-
-
-}
-.gride-waper{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat( auto-fit, minmax(150px, 1fr));
-    grid-auto-rows: 200px ;
-    grid-auto-flow: dense ;
-    
-
-}
-@media only screen and (max-width: 600px) {
-    .grid-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-
-/* .rating-area {
-	overflow: visible;
-	width: 265px;
-	margin: 0 auto;
-} */
-
-.rating-area:not(:checked) > input {
-	display: none;
-}
-.rating-area:not(:checked) > label {
-	float: right;
-	width: 42px;
-	padding: 0;
-	cursor: pointer;
-	font-size: 32px;
-	line-height: 32px;
-	color: lightgrey;
-	text-shadow: 1px 1px #bbb;
-}
-.rating-area:not(:checked) > label:before {
-	content: '★';
-}
-.rating-area > input:checked ~ label {
-	color: gold;
-	text-shadow: 1px 1px #c60;
-}
-.rating-area:not(:checked) > label:hover,
-.rating-area:not(:checked) > label:hover ~ label {
-	color: gold;
-}
-.rating-area > input:checked + label:hover,
-.rating-area > input:checked + label:hover ~ label,
-.rating-area > input:checked ~ label:hover,
-.rating-area > input:checked ~ label:hover ~ label,
-.rating-area > label:hover ~ input:checked ~ label {
-	color: gold;
-	text-shadow: 1px 1px goldenrod;
-}
-.rate-area > label:active {
-	position: relative;
+.card-content{
+	padding-top:20px ;
 }
 
 
