@@ -28,7 +28,7 @@
                 <ul class="navbar-nav me-auto ms-2-auto " >
                   <li class="nav-item">
       
-                    <a class="nav-link active" aria-current="page" href="index.html">Zoole</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Zoole</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -129,7 +129,7 @@
 
 
       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-      <a href="/html/avt.php"><button type="button" class="btn btn-primary btn-lg" >У меня есть аккаунт</button> </a>
+      <a href="../html/avt.php"><button type="button" class="btn btn-primary btn-lg" >У меня есть аккаунт</button> </a>
       </div>
 
 

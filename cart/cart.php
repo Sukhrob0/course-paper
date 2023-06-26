@@ -1,6 +1,8 @@
 <?php
 
-@include 'config.php';
+
+$conn = mysqli_connect('localhost','root','','Zoole') or die('connection failed');
+
 
 if(isset($_POST['update_update_btn'])){
    $update_value = $_POST['update_quantity'];
@@ -36,7 +38,7 @@ if(isset($_GET['delete_all'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="CSS/style2.css">
+   <link rel="stylesheet" href="C:\Users\mrvad\OneDrive\Рабочий стол\OSPanel\domains\Cursavaya\course-paper-1\CSS\style2.css">
 
 </head>
 <body>
