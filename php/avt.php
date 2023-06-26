@@ -82,7 +82,7 @@ background-color: rgb(162, 248, 150);
     </header>
     
 
-     <!-- <section class="vh-100" style="background-color: #eee;">
+      <section class="vh-100" style="background-color: #eee;">
         <div class="container h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-lg-12 col-xl-11">
@@ -132,7 +132,6 @@ background-color: rgb(162, 248, 150);
         <input type="text" placeholder="password" name="pass">
         <button type="sumbit">Войти</button>
     </form>
--->
       
                     </div>
                     <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
