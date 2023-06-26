@@ -9,7 +9,7 @@ if(isset($_POST['update_update_btn'])){
    $update_id = $_POST['update_quantity_id'];
    $update_quantity_query = mysqli_query($conn, "UPDATE `cart` SET quantity = '$update_value' WHERE id = '$update_id'");
    if($update_quantity_query){
-      header('location:cart.php');
+      header('location:/cart.php');
    };
 };
 
@@ -32,13 +32,13 @@ if(isset($_GET['delete_all'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>shopping cart</title>
+   <title>корзина покупок</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="C:\Users\mrvad\OneDrive\Рабочий стол\OSPanel\domains\Cursavaya\course-paper-1\CSS\style2.css">
+   <link rel="stylesheet" href="../CSS/style2.css">
 
 </head>
 <body>
@@ -84,7 +84,7 @@ if(isset($_GET['delete_all'])){
                </form>   
             </td>
             <td>₽<?php echo $sub_total = number_format($fetch_cart['price'] * $fetch_cart['quantity']); ?></td>
-            <td><a href="cart.php?remove=<?php echo $fetch_cart['id']; ?>" onclick="return confirm('remove item from cart?')" class="delete-btn"> <i class="fas fa-trash"></i>Удалить  </a></td>
+            <td><a href="cart.php?remove=<?php echo $fetch_cart['id']; ?>" onclick="return confirm('удалить товар из корзины?')" class="delete-btn"> <i class="fas fa-trash"></i>Удалить  </a></td>
          </tr>
          <?php
            $grand_total += $sub_total;  
@@ -92,26 +92,24 @@ if(isset($_GET['delete_all'])){
          };
          ?>
          <tr class="table-bottom">
-            <td><a href="products.php" class="option-btn" style="margin-top: 0;">Вернуться назад</a></td>
+            <td><a href="../index.html" class="option-btn" style="margin-top: 0;">Вернуться назад</a></td>
             <td colspan="3">Окончательная сумма</td>
             <td>₽<?php echo $grand_total; ?></td>
-            <td><a href="cart.php?delete_all" onclick="return confirm('are you sure you want to delete all?');" class="delete-btn"> <i class="fas fa-trash"></i> Удалить все </a></td>
+            <td><a href="cart.php?delete_all" onclick="return confirm('вы уверены, что хотите удалить все?');" class="delete-btn"> <i class="fas fa-trash"></i> Удалить все </a></td>
          </tr>
 
       </tbody>
 
    </table>
 
-   <div class="checkout-btn">
-      <a href="checkout.php" class="btn <?= ($grand_total > 1)?'':'disabled'; ?>">Оплатить товар(ы)</a>
-   </div>
+
 
 </section>
 
 </div>
    
 <!-- custom js file link  -->
-<script src="js/script.js"></script>
+<script src="../js/script2.js"></script>
 
 </body>
 </html>
