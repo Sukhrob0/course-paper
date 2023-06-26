@@ -59,7 +59,7 @@
     background: #272525;
   }
 
-/* cord */
+/* card */
 .product-card {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
 	transition: all .3s;
@@ -125,13 +125,14 @@
 	font-size: 20px;
 	margin-left: 10px;
 }
-/* inline */
+
 
 
 /* footer */
 .container0{
   max-width: 1170px;
   margin:auto;
+
 }
 .row{
   display: flex;
